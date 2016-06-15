@@ -46,6 +46,7 @@
     <Compile Include="Extensions.cs" />
     <Compile Include="IRule.cs" />
     <Compile Include="Mixer.cs" />
+    <Compile Include="NameConvert.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
