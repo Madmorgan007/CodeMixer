@@ -10,10 +10,7 @@ namespace CodeMixerVersion2
     {
         public static string Clean(this string str)
         {
-            string newStr = str.Replace("/", string.Empty).Replace("=", string.Empty).Replace("+", string.Empty)
-                .Replace("-", string.Empty).Replace("*", string.Empty).Replace("&", string.Empty);
-
-            return newStr;
+            return str.Replace("=", string.Empty).Replace("+", string.Empty).Replace("\\", string.Empty).Replace("/", string.Empty);
         }
     }
 }
